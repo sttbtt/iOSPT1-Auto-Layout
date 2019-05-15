@@ -12,6 +12,9 @@
 		F123B1E9228CA706003C7F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F123B1E7228CA706003C7F62 /* Main.storyboard */; };
 		F123B1EB228CA707003C7F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F123B1EA228CA707003C7F62 /* Assets.xcassets */; };
 		F123B1EE228CA707003C7F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F123B1EC228CA707003C7F62 /* LaunchScreen.storyboard */; };
+		F123B1FA228CC3AD003C7F62 /* UIView+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123B1F7228CC3AD003C7F62 /* UIView+Shake.swift */; };
+		F123B1FB228CC3AD003C7F62 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123B1F8228CC3AD003C7F62 /* BackgroundView.swift */; };
+		F123B1FC228CC3AD003C7F62 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123B1F9228CC3AD003C7F62 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F123B1EA228CA707003C7F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F123B1ED228CA707003C7F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F123B1EF228CA707003C7F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F123B1F7228CC3AD003C7F62 /* UIView+Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shake.swift"; sourceTree = "<group>"; };
+		F123B1F8228CC3AD003C7F62 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		F123B1F9228CC3AD003C7F62 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				F123B1E5228CA706003C7F62 /* ViewController.swift */,
+				F123B1F8228CC3AD003C7F62 /* BackgroundView.swift */,
+				F123B1F9228CC3AD003C7F62 /* CustomTextField.swift */,
+				F123B1F7228CC3AD003C7F62 /* UIView+Shake.swift */,
 				F123B1F6228CA724003C7F62 /* Storyboards */,
 				F123B1F5228CA717003C7F62 /* Resources */,
 			);
@@ -151,8 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F123B1FA228CC3AD003C7F62 /* UIView+Shake.swift in Sources */,
 				F123B1E6228CA706003C7F62 /* ViewController.swift in Sources */,
+				F123B1FB228CC3AD003C7F62 /* BackgroundView.swift in Sources */,
 				F123B1E4228CA706003C7F62 /* AppDelegate.swift in Sources */,
+				F123B1FC228CC3AD003C7F62 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
